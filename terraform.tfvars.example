@@ -1,0 +1,9 @@
+# Copy this to terraform.tfvars and fill in your values
+
+ssh_public_key = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAA... you@example.com"
+
+storage_pool = "default"
+network_name = "rke2-lab-net"
+
+server_count = 1
+agent_count  = 2
