@@ -4,7 +4,7 @@ Provisions Ubuntu 24.04 LTS VMs via Terraform against your existing
 `qemu:///system` libvirt connection, ready to bootstrap into an RKE2
 Kubernetes cluster.
 
-## Prerequisites (already confirmed on this host)
+## Prerequisites
 
 - You're in the `kvm` and `libvirt` groups.
 - `virsh list --all` works without sudo.
